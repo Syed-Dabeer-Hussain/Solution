@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+body{
+	background-color: green;
+}
+	h2{
+		font-size: 40px;
+	}
+</style>
+<h2>Java Assignment-4</h2>
+
+<center><button onclick="myFunction()">Enter your Name</button></center>
+
+<p id="Dabeer"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your Charecter:", "");
+    if (person == "J" || person == "j") {
+        txt = "GoodBye";
+    } else {
+        txt = "New ";
+    }
+    document.getElementById("Dabeer").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
